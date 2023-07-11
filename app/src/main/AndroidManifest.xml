@@ -16,6 +16,18 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31" >
         <activity
+            android:name=".activitys.Lab1_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".activitys.Lab2_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".lab2.bai3.Lab23Activity"
+            android:exported="false" />
+        <activity
+            android:name=".lab2.bai2.Bai2Activity"
+            android:exported="false" />
+        <activity
             android:name=".lab2.bai1.Lab21Activity"
             android:exported="false" />
         <activity
@@ -37,10 +49,10 @@
             android:name=".lab1.Bai21Activity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".lab2.bai4.Lab24Activity"
             android:exported="false" />
         <activity
-            android:name=".lab2.bai2.Bai2Activity"
+            android:name=".MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
